@@ -4,7 +4,6 @@ namespace EmployeeWageComputation
 {
     class Program
     {
-
         public const int IS_FULL_TIME = 1;
         public const int IS_PART_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
@@ -43,7 +42,5 @@ namespace EmployeeWageComputation
             int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Total Employee Wage is :" + totalEmpWage);
             //modified now
-        }
     }
 }
-
